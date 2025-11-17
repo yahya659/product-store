@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# 🔥 وصف المشروع
+**متجر المنتجات** هو تطبيق **React + TypeScript** حديث وآمن من ناحية الأنواع (Type-safe).  
+يسمح للمستخدمين **بإضافة، تعديل، حذف، وتصفية المنتجات** مع ضمان التوافق الكامل مع أنواع TypeScript.  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+مثالي للاستخدام في **محفظة أعمالك (Portfolio)** أو **طلبات التوظيف** كمطور واجهات أمامية.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ⚡ المميزات
 
-### `npm start`
+- **عمليات CRUD كاملة:** إضافة، تعديل، وحذف المنتجات بشكل ديناميكي.  
+- **تصفية حسب الفئة:** فلترة المنتجات حسب الإلكترونيات، الملابس، أو الكتب.  
+- **قوة TypeScript:** 
+  - الواجهات (Interfaces) والأنواع (Types)  
+  - Literal Types  
+  - `Partial` و `Readonly`  
+  - Conditional Types  
+  - Generics  
+  - Type Guards  
+  - `keyof`  
+- **واجهة مستخدم بسيطة وجذابة:** ألوان مختلفة حسب حالة المنتج (متاح / غير متاح).  
+- **بدون خادم Backend:** يعمل على بيانات JSON وهمية.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🎨 صورة المشروع
 
-### `npm test`
+![صورة المشروع](./image.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ التقنيات المستخدمة
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React 18**
+- **TypeScript 5**
+- CSS / تنسيق بسيط
+- **بدون Backend / بيانات وهمية**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 طريقة التشغيل
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### نسخ المشروع
+```bash
+git clone https://github.com/Yahya659/product-store-ts.git
+cd product-store-ts
